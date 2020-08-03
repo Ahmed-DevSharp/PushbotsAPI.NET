@@ -13,7 +13,7 @@ Pushbots API v3 implementation in C# in a simple way.
                 var url = "https://api.pushbots.com/3/push/transactional";
 
                 var con = "{ " +
-                "\"topic\":\"Contoraz\" ," +
+                "\"topic\":\"[Your App Name]\" ," +
                 "\"badge\": \"0\" , " +
                 "\"message\": {" +
                 "\"title\": \"" + title + "\"," +
